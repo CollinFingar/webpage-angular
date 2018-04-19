@@ -1,0 +1,43 @@
+.view {
+    height: 100%;
+  }
+  
+  @media (max-width: 740px) {
+    header {
+      height: 100vh;
+    }
+  }
+  
+  .top-nav-collapse {
+    background-color: #263238 !important;
+  }
+  
+  .navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background: #263238 !important;
+    }
+  }
+  
+  h1 {
+    letter-spacing: 8px;
+  }
+  
+  h5 {
+    letter-spacing: 3px;
+  }
+  
+  .hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+  }
+  
+  .jarallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
